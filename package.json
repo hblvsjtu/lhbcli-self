@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "lhb": "./bin/lhb.js"
+    "lhb": "./bin/index.js"
   },
   "keywords": [
     "lhb"
