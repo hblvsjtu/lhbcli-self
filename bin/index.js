@@ -6,7 +6,7 @@ const chalk = require('chalk');
 const ora = require('ora');
 
 program
-  .version('1.0.1', '-v, --version')
+  .version('1.0.2', '-v, --version')
   .option('-i, init [name]', '初始化lhbcli-self项目')
   .parse(process.argv);
 
