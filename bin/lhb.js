@@ -6,12 +6,12 @@ const chalk = require('chalk');
 const ora = require('ora');
 
 program
-  .version('0.1.0')
+  .version('1.0.0', '-v, --version')
   .option('-i, init [name]', '初始化lhbcli-self项目')
   .parse(process.argv);
 
 if (program.init) {
-  const spinner = ora('正在从github下载x-build').start();
+  const spinner = ora('正在从github下载lhbcli-self项目').start();
   download('hblvsjtu/lhbcli-self', program.init, function (err) {
     if(!err){
       // 可以输出一些项目成功的信息
